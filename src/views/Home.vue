@@ -1,25 +1,6 @@
 <template>
   <v-layout column justify-center align-center class="mt-4 pt-2">
-    <VueCompareImage
-      class="hidden-md-and-down"
-      hover
-      :style="{ minWidth: '1300px' }"
-      :sliderLineWidth="sliderLine"
-      :handleSize="hSize"
-      :leftImage="leftImage"
-      :rightImage="rightImage"
-      :sliderPositionPercentage="sliderPosition"
-    />
-    <VueCompareImage
-      class="hidden-lg-and-up"
-      hover
-      :style="{ maxWidth: '400px' }"
-      :sliderLineWidth="sliderLine"
-      :handleSize="hSize"
-      :leftImage="leftImage2"
-      :rightImage="rightImage2"
-      :sliderPositionPercentage="sliderPosition"
-    />
+    <img src="https://i.imgur.com/PEVIvXW.png" />
 
     <br />
 
@@ -103,61 +84,61 @@
 </template>
 
 <script>
-import { VueTyper } from 'vue-typer'
-import VueCompareImage from 'vue-compare-image'
+import { VueTyper } from "vue-typer";
+import VueCompareImage from "vue-compare-image";
 
 export default {
   metaInfo: {
-    title: 'Home',
-    titleTemplate: '%s ← Roudro',
+    title: "Home",
+    titleTemplate: "%s ← Roudro",
     meta: [
-      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { name: 'description', content: "Eldin Zaimovic's Portfolio" },
-      { charset: 'utf-8' },
-      { property: 'og:title', content: "Eldin' Space" },
-      { property: 'og:site_name', content: "Eldin' Space" },
-      { property: 'og:type', content: 'website' },
-      { property: 'og:url', content: 'https://eldin.space' },
+      { name: "viewport", content: "width=device-width, initial-scale=1" },
+      { name: "description", content: "Eldin Zaimovic's Portfolio" },
+      { charset: "utf-8" },
+      { property: "og:title", content: "Eldin' Space" },
+      { property: "og:site_name", content: "Eldin' Space" },
+      { property: "og:type", content: "website" },
+      { property: "og:url", content: "https://eldin.space" },
       {
-        property: 'og:image',
-        content: 'https://i.imgur.com/Dcz2PGx.jpg'
+        property: "og:image",
+        content: "https://i.imgur.com/Dcz2PGx.jpg"
       },
-      { property: 'og:description', content: "Eldin Zaimovic's Portfolio" }
+      { property: "og:description", content: "Eldin Zaimovic's Portfolio" }
     ]
   },
   components: {
-    'vue-typer': VueTyper,
+    "vue-typer": VueTyper,
     VueCompareImage
   },
-  data () {
+  data() {
     return {
       icons: [
-        { href: 'https://github.com/roudromehedi', icon: 'fab fa-github' },
+        { href: "https://github.com/roudromehedi", icon: "fab fa-github" },
 
         {
-          href: 'https://www.linkedin.com/in/roudro',
-          icon: 'fab fa-linkedin-in'
+          href: "https://www.linkedin.com/in/roudro",
+          icon: "fab fa-linkedin-in"
         },
         {
-          href: 'https://www.xing.com/profile/SMRoudro_Mehedi/cv',
-          icon: 'fab fa-xing'
+          href: "https://www.xing.com/profile/SMRoudro_Mehedi/cv",
+          icon: "fab fa-xing"
         },
         {
-          href: 'https://www.facebook.com/s.m.roudro/',
-          icon: 'fab fa-facebook-f'
+          href: "https://www.facebook.com/s.m.roudro/",
+          icon: "fab fa-facebook-f"
         }
       ],
-      text1: ['Front-End Developer', 'Web Developer', 'Web Designer'],
-      leftImage: 'https://i.imgur.com/bU50uS9.jpg',
-      rightImage: 'https://i.imgur.com/z3ZoEEw.jpg',
-      leftImage2: 'https://i.imgur.com/SXBitjh.jpg',
-      rightImage2: 'https://i.imgur.com/Dcz2PGx.jpg',
+      text1: ["Front-End Developer", "Web Developer", "Web Designer"],
+      leftImage: "https://i.imgur.com/PEVIvXW.png",
+      rightImage: "https://i.imgur.com/PEVIvXW.png",
+      leftImage2: "https://i.imgur.com/SXBitjh.jpg",
+      rightImage2: "https://i.imgur.com/Dcz2PGx.jpg",
       sliderLine: 0,
       hSize: 0,
       sliderPosition: 0.5
-    }
+    };
   }
-}
+};
 </script>
 <style>
 @keyframes rocking {
