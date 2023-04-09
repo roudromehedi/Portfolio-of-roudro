@@ -77,79 +77,95 @@
 <script>
 export default {
   metaInfo: {
-    title: 'Web Portfolio',
-    titleTemplate: '%s ← Roudro',
+    title: "Web Portfolio",
+    titleTemplate: "%s ← Roudro",
     meta: [
-      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+      { name: "viewport", content: "width=device-width, initial-scale=1" },
       {
-        name: 'description',
+        name: "description",
         content:
           "Eldin Zaimovic's Web Portfolio Vue Vue.js Nuxt Nuxt.js HTML CSS Vuetify Axios GraphQL JavaScript Web Developer Front-End Frontend Designer App Responsive"
       },
-      { charset: 'utf-8' },
-      { property: 'og:title', content: "Eldin' Space" },
-      { property: 'og:site_name', content: "Eldin' Space" },
-      { property: 'og:type', content: 'website' },
-      { property: 'og:url', content: 'https://eldin.space' },
+      { charset: "utf-8" },
+      { property: "og:title", content: "Eldin' Space" },
+      { property: "og:site_name", content: "Eldin' Space" },
+      { property: "og:type", content: "website" },
+      { property: "og:url", content: "https://eldin.space" },
       {
-        property: 'og:image',
-        content: 'https://i.imgur.com/Dcz2PGx.jpg'
+        property: "og:image",
+        content: ""
       },
       {
-        property: 'og:description',
+        property: "og:description",
         content:
           "Eldin Zaimovic's Web Portfolio Vue Vue.js Nuxt Nuxt.js HTML CSS Vuetify Axios GraphQL JavaScript Web Developer Front-End Frontend Designer App Responsive"
       }
     ]
   },
-  data () {
+  data() {
     return {
       dialog: false,
       projects: [
         {
           dialog: false,
-          title: 'WeatherCast',
-          git: 'https://github.com/roudromehedi/weather-cast',
-          demo: 'https://weathercast.smroudro.com/',
+          title: "Expense Tracker Pro",
+          git: "https://github.com/roudromehedi/ExpenseTrackerPro",
+          demo: "https://expensetrackerpro.smroudro.com/",
           tech: {
-            tech1: 'Vue',
-            tech2: 'JavaScript',
-            tech3: 'TypeScript',
-            tech4: 'Vuetify',
-            tech5: 'SCSS'
+            tech1: "Vue",
+            tech2: "JavaScript",
+            tech3: "Node JS",
+            tech4: "Express",
+            tech5: "Mongo DB",
+            tech6: "Vuetify",
+            tech7: "SCSS"
           },
-          poster: 'https://i.imgur.com/1GueHpk.png'
+          poster: "https://imgur.com/9qe9qRx"
         },
         {
           dialog: false,
-          title: 'E-Commerce',
+          title: "WeatherCast",
+          git: "https://github.com/roudromehedi/weather-cast",
+          demo: "https://weathercast.smroudro.com/",
+          tech: {
+            tech1: "Vue",
+            tech2: "JavaScript",
+            tech3: "TypeScript",
+            tech4: "Vuetify",
+            tech5: "SCSS"
+          },
+          poster: "https://i.imgur.com/1GueHpk.png"
+        },
+        {
+          dialog: false,
+          title: "E-Commerce",
           git:
-            'https://github.com/roudromehedi/E-commerce-site-with-vue-js-vuetify',
-          demo: 'https://ecom.smroudro.com/',
+            "https://github.com/roudromehedi/E-commerce-site-with-vue-js-vuetify",
+          demo: "https://ecom.smroudro.com/",
           tech: {
-            tech1: 'VUE',
-            tech2: 'Vuetify',
-            tech3: 'HTML',
-            tech4: 'JavaScript'
+            tech1: "VUE",
+            tech2: "Vuetify",
+            tech3: "HTML",
+            tech4: "JavaScript"
           },
-          poster: 'https://i.imgur.com/0KY2ufA.png'
+          poster: "https://i.imgur.com/0KY2ufA.png"
         },
         {
           dialog: false,
-          title: 'Github Profile search',
-          git: 'https://github.com/roudromehedi/Github-Profile-fetcher',
-          demo: 'https://gitpro.smroudro.com/',
+          title: "Github Profile search",
+          git: "https://github.com/roudromehedi/Github-Profile-fetcher",
+          demo: "https://gitpro.smroudro.com/",
           tech: {
-            tech1: 'JavaScript',
-            tech2: 'SCSS',
-            tech3: 'HTML'
+            tech1: "JavaScript",
+            tech2: "SCSS",
+            tech3: "HTML"
           },
-          poster: 'https://i.imgur.com/QX8BI8m.png'
+          poster: "https://i.imgur.com/QX8BI8m.png"
         }
       ]
-    }
+    };
   }
-}
+};
 </script>
 
 <style scoped></style>
