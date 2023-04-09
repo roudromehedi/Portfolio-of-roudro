@@ -120,7 +120,7 @@ export default {
             tech6: "Vuetify",
             tech7: "SCSS"
           },
-          poster: "https://imgur.com/9qe9qRx"
+          poster: "https://i.imgur.com/9qe9qRx.png"
         },
         {
           dialog: false,
