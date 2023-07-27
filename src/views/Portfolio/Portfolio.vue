@@ -117,7 +117,7 @@ export default {
             tech3: "Tailwind CSS",
             tech4: "SCSS"
           },
-          poster: "https://i.imgur.com/eZLE6m2.png"
+          poster: "https://i.imgur.com/VuD3e5N.png"
         },
         {
           dialog: false,
