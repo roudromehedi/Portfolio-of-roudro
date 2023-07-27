@@ -108,6 +108,19 @@ export default {
       projects: [
         {
           dialog: false,
+          title: "Quiz App",
+          git: "https://github.com/roudromehedi/Vue-Quiz-App",
+          demo: "https://quiz.smroudro.com/",
+          tech: {
+            tech1: "Vue 3",
+            tech2: "JavaScript",
+            tech3: "Tailwind CSS",
+            tech4: "SCSS"
+          },
+          poster: "https://i.imgur.com/eZLE6m2.png"
+        },
+        {
+          dialog: false,
           title: "Expense Tracker Pro",
           git: "https://github.com/roudromehedi/ExpenseTrackerPro",
           demo: "https://expensetrackerpro.smroudro.com/",
