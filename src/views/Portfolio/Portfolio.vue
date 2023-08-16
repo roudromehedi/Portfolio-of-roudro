@@ -108,6 +108,20 @@ export default {
       projects: [
         {
           dialog: false,
+          title: "Movie Ticket Booking System With Admin Dashboard",
+          git: "https://github.com/roudromehedi/cineplex",
+          demo: "https://cineplex.smroudro.com/",
+          tech: {
+            tech1: "Vue 3",
+            tech2: "JavaScript",
+            tech3: "Bootstrap 5",
+            tech4: "Vuetify",
+            tech4: "Json Server"
+          },
+          poster: "https://i.imgur.com/f9LgAJ5.png"
+        },
+        {
+          dialog: false,
           title: "Quiz App",
           git: "https://github.com/roudromehedi/Vue-Quiz-App",
           demo: "https://quiz.smroudro.com/",
