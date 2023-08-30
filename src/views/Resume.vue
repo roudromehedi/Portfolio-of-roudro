@@ -53,7 +53,7 @@
             <v-layout pt-3>
               <v-flex xs4>
                 <div class="caption font-weight-bold green--text">
-                  MAY 2022 -
+                  MAY 2021 -
                 </div>
                 <div class="caption font-weight-bold green--text">PRESENT</div>
               </v-flex>
